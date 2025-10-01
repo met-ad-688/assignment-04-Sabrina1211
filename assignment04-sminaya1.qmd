@@ -1,24 +1,56 @@
 ---
 title: Assignment 04
 author:
-  - name: Norah Jones
+  - name: Sabrina Minaya Vasquez
     affiliations:
       - id: bu
         name: Boston University
         city: Boston
         state: MA
 number-sections: true
-date: '2024-11-21'
-date-modified: today
-date-format: long
+date: '2025-10-08'
 format:
   html:
     theme: cerulean
     toc: true
     toc-depth: 2
-
+    code-overflow: wrap
+    self-contained: true
+  docx: default
+  pdf: default
+date-modified: today
+date-format: long
 execute:
-  echo: false
-  eval: false
+  echo: true
+  eval: true
   freeze: auto
+jupyter: python3
 ---
+
+# Load Dataset
+
+```{python}
+from pyspark.sql import SparkSession
+import pandas as pd
+import plotly.express as px
+import plotly.io as pio
+import numpy as np
+
+np.random.seed(42)
+
+pio.renderers.default = "notebook+notebook_connected+vscode"
+
+# Initialize Spark Session
+spark = SparkSession.builder.appName("LightcastData").getOrCreate()
+
+# Load Data
+df = spark.read.option("header", "true").option("inferSchema", "true").option("multiLine","true").option("escape", "\"").csv("/home/ubuntu/assignment-04-Sabrina1211/data/lightcast_job_postings.csv")
+
+# Show Schema and Sample Data
+print("---This is Diagnostic check, No need to print it in the final doc---")
+
+# df.printSchema() # comment this line when rendering the submission
+df.show(5)
+
+```
+
