@@ -1,0 +1,31 @@
+Feature,Estimate,Std Error,t-stat,P-Value
+Intercept,87729.4985,22747.6805,0.1351,0.8925
+MIN_YEARS_EXPERIENCE,3073.9396,36.5365,-7.9941,0.0000
+MAX_YEARS_EXPERIENCE_SQ,-292.0763,22747.6805,0.1351,0.8925
+MAX_YEARS_EXPERIENCE,3073.9396,20.5955,1.4364,0.1510
+DURATION,29.5828,20846.6950,-0.1081,0.9139
+"EDUCATION_LEVELS_NAME_vec_""Bachelor's degree""",-2253.9775,20859.1237,0.0386,0.9692
+"EDUCATION_LEVELS_NAME_vec_""No Education Listed""",805.2130,20863.3147,0.2819,0.7780
+"EDUCATION_LEVELS_NAME_vec_""Bachelor's degree"",  ""Master's degree""",5881.4501,20971.9940,-1.4515,0.1467
+"EDUCATION_LEVELS_NAME_vec_""High school or GED"",  ""Bachelor's degree""",-30439.8972,20987.9155,0.4008,0.6886
+"EDUCATION_LEVELS_NAME_vec_""Bachelor's degree"",  ""Master's degree"",  ""Ph.D. or professional degree""",8412.8920,20990.0817,-0.6518,0.5146
+"EDUCATION_LEVELS_NAME_vec_""High school or GED""",-13680.3546,21019.8840,-0.2217,0.8245
+"EDUCATION_LEVELS_NAME_vec_""Associate degree"",  ""Bachelor's degree""",-4660.4367,21100.5976,0.3776,0.7057
+"EDUCATION_LEVELS_NAME_vec_""Master's degree""",7967.9560,21203.5634,-0.6704,0.5027
+"EDUCATION_LEVELS_NAME_vec_""Associate degree""",-14214.1229,21380.9216,-0.1336,0.8937
+"EDUCATION_LEVELS_NAME_vec_""Associate degree"",  ""Bachelor's degree"",  ""Master's degree""",-2857.2642,21419.1586,-0.7121,0.4764
+"EDUCATION_LEVELS_NAME_vec_""Associate degree"",  ""Bachelor's degree"",  ""Master's degree"",  ""Ph.D. or professional degree""",-15252.4114,21567.5225,1.8014,0.0717
+"EDUCATION_LEVELS_NAME_vec_""Bachelor's degree"",  ""Ph.D. or professional degree""",38851.8773,21793.5925,-0.5923,0.5537
+"EDUCATION_LEVELS_NAME_vec_""High school or GED"",  ""Associate degree"",  ""Bachelor's degree""",-12908.6915,21905.9591,-0.4181,0.6759
+"EDUCATION_LEVELS_NAME_vec_""High school or GED"",  ""Bachelor's degree"",  ""Master's degree""",-9159.5725,22009.1299,0.6311,0.5280
+"EDUCATION_LEVELS_NAME_vec_""Master's degree"",  ""Ph.D. or professional degree""",13889.7107,22150.2630,0.1862,0.8523
+"EDUCATION_LEVELS_NAME_vec_""High school or GED"",  ""Associate degree""",4123.7347,24166.2009,-1.6562,0.0978
+"EDUCATION_LEVELS_NAME_vec_""High school or GED"",  ""Associate degree"",  ""Bachelor's degree"",  ""Master's degree""",-40022.9996,24163.3570,1.1267,0.2599
+"EDUCATION_LEVELS_NAME_vec_""Ph.D. or professional degree""",27224.9060,3057.6640,1.8837,0.0597
+EMPLOYMENT_TYPE_NAME_vec_Full-time (> 32 hours),5759.7671,3566.5832,-1.8473,0.0648
+EMPLOYMENT_TYPE_NAME_vec_Part-time (â‰¤ 32 hours),-6588.6707,2907.7548,1.3662,0.1719
+REMOTE_TYPE_NAME_vec_[None],3972.6485,2969.5007,2.8131,0.0049
+REMOTE_TYPE_NAME_vec_Remote,8353.6157,3355.2443,0.7163,0.4738
+REMOTE_TYPE_NAME_vec_Hybrid Remote,2403.5211,4582.4088,-0.9210,0.3571
+IS_INTERNSHIP_vec_0,-4220.3464,821.4479,0.2611,0.7941
+COMPANY_IS_STAFFING_vec_0,214.4410,21780.4771,4.0279,0.0001

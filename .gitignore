@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 .venv
 data/lightcast_job_postings.csv
+
